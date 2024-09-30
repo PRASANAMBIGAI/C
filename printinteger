@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() 
+{
+    int i;
+    printf("ENTER AN INTEGER : ");
+    scanf("%d",&i);
+    printf("PRINTING THE INTEGER ENTERED BY THE USER: %d",i);\
+    return 0;
+}
