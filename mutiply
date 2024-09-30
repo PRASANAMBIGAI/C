@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() 
+{
+    float p,q,m;
+    printf("ENTER TWO FLOATING POINT NUMBERS: ");
+    scanf("%f%f",&p,&q);
+    m=p*q;
+    printf("THE MUTIPLICATION OF TWO FLOATING POINT NUMBERS:%f",m);
+    return 0;
+}
