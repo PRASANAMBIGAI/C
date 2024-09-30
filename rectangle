@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+    int l,b,a,p;
+    printf("ENTER LENGTH AND BREADTH: ");
+    scanf("%d%d",&l,&b);
+    a=l*b;
+    p=2*(l+b);
+    printf("THE AREA OF THE RECTANGLE: %d",a);
+    printf("\n THE PERIMETER OF THE RECTANGLE: %d ",p);
+    return 0; 
+}
